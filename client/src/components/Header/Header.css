@@ -1,0 +1,18 @@
+.Header {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.Header__logo {
+    width: 80px;
+    margin: 0px 20px;
+}
+.Header__title {
+    color: var(--colors-paff);
+    font-size: 36px;
+}
+.Header__slogan {
+    color: var(--colors-robo);
+    font-size: 24px;
+}
