@@ -1,0 +1,18 @@
+.NavButton {
+    width: 155px;
+    height: 70px;
+    margin: 4px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: var(--colors-dark);
+    color: var(--colors-paff);
+}
+.NavButton-active {
+    background-color: var(--colors-paff);
+    color: var(--colors-dark);
+}

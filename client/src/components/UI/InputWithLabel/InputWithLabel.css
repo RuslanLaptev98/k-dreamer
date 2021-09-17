@@ -1,0 +1,25 @@
+.InputWithLabel {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+    padding: 2px 1rem;
+}
+.InputWithLabel__label {
+    color: var(--colors-robo);
+    font-size: 22px;
+    margin: 8px 0px;
+}
+.InputWithLabel__input {
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--colors-dark);
+    padding: 8px;
+    font-size: 24px;
+    color: var(--colors-paff);
+}
+.InputWithLabel__input:active {
+    border: none;
+}

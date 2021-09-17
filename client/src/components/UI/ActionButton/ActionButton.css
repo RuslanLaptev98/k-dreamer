@@ -1,0 +1,13 @@
+.ActionButton {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: var(--colors-dark);
+    background-color: var(--colors-paff);
+    border-radius: 10px;
+    margin: 2rem auto;
+    cursor: pointer;
+}
