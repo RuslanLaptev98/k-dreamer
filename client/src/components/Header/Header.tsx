@@ -4,7 +4,11 @@ import './Header.css'
 const Header: React.FC = () => {
     return (
         <header className="Header">
-            <img className="Header__logo" src="./logo.svg" alt="" />
+            <img
+                className="Header__logo"
+                src="./icons/logo.svg"
+                alt="K-Dreamer Logo"
+            />
             <div className="Header__titleGroup">
                 <div className="Header__title">K-Dreamer</div>
                 <div className="Header__slogan">

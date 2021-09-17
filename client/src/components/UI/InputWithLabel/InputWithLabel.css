@@ -8,7 +8,7 @@
 .InputWithLabel__label {
     color: var(--colors-robo);
     font-size: 22px;
-    margin: 8px 0px;
+    margin: 4px 0px;
 }
 .InputWithLabel__input {
     -webkit-appearance: none;

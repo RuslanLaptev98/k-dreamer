@@ -1,6 +1,7 @@
 import React from 'react'
 import InputWithLabel from '../UI/InputWithLabel/InputWithLabel'
 import ActionButton from '../UI/ActionButton/ActionButton'
+import GoogleAuth from '../UI/GoogleAuth/GoogleAuth'
 import './WelcomeSignUp.css'
 
 const WelcomeSignUp: React.FC = () => {
@@ -23,6 +24,7 @@ const WelcomeSignUp: React.FC = () => {
                 type="password"
             />
             <ActionButton text="Sign Up" />
+            <GoogleAuth signUp={true} />
         </div>
     )
 }

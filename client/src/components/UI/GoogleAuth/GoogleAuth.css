@@ -1,0 +1,12 @@
+.GoogleAuth {
+    display: flex;
+    color: var(--colors-robo);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.GoogleAuth__text {
+    padding: 0 8px;
+    font-size: 20px;
+}
